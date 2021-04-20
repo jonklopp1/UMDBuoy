@@ -62,8 +62,8 @@ def gps_data():
 
 # MAIN
 
-IMU_start = 1200 # Start IMU cycle at 20 min
-IMU_end = 2400 # End IMU cycle at 40 min
+IMU_start = 1 # Start IMU cycle at 20 min
+IMU_end = 30 # End IMU cycle at 40 min
 IMU_Hz = .25 # 4 Hz - IMU sample rate
 IMU_samp = int((IMU_end - IMU_start)/IMU_Hz) # Total number of IMU samples to be obtained
 SAT_Hz = 600  # Default to 10 minutes - SAT
@@ -127,7 +127,6 @@ postdone = False
 while infLoop:
     # Checks for new GPS data
     gps.update()
-
     # Timer variables
     current = time.perf_counter()
     secondary = time.perf_counter()
