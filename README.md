@@ -5,7 +5,14 @@
 This code is the data aquisition and and satellite trasmission code for the DAQ Buoy developed by UMD senior design and Dr. Craig Hill. The code
 incorporates sensors like temp, IMU, gps and transmits via a sattellite link using a raspberry pi.
 
+#### Main Code
 BuoyDAQ4.py is the main code updated 4/20/2021
+
+Use:
+~~~
+python BuoyDAQ4.py
+~~~
+To run the code when all applicable libraries are installed and sensors are in a working condition
 
 #### All other files are tests or example data:
 * 9603_Test.py - Satellite test
