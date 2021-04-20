@@ -1,6 +1,6 @@
 # UMDBuoy
 
-<title>UNIVERSITY MINNESOTA DULUTH DATA AQUISITION BUOY</title>
+UNIVERSITY MINNESOTA DULUTH DATA AQUISITION BUOY
 
 This code is the data aquisition and and satellite trasmission code for the DAQ Buoy developed by UMD senior design and Dr. Craig Hill. The code
 incorporates sensors like temp, IMU, gps and transmits via a sattellite link using a raspberry pi.
